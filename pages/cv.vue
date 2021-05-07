@@ -25,7 +25,6 @@
 
     <h3>Gaming</h3>
     I do enjoy a good game from time to time. I used to play quite a lot on nintendo consoles when I was younger, nowadays I mostly enjoy indie and older titles on my PC. I also spend way too many hours playing Guild Wars when I was a teenager.
-
   </div>
 </template>
 
