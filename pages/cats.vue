@@ -2,7 +2,7 @@
   <div class="cats justify-content-center mb-3">
     <div id="refreshButton">
       <b-button
-        :disabled=loading
+        :disabled="loading"
         variant="primary"
         @click="fetchCat()"
       >

@@ -2,7 +2,7 @@
   <div class="index">
     <h1> hello world! </h1>
     <p>
-    This is my homepage. It doesn't have much content yet, but feel free to check out whats here.
+      This is my homepage. It doesn't have much content yet, but feel free to check out whats here.
     </p>
   </div>
 </template>
