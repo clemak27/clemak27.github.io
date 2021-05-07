@@ -12,7 +12,7 @@
     I mainly use Java, Go and nodejs. I'm also interested in Kotlin and Rust, and I'm not afraid to try something new. I have a <a href="https://gitea.io/en-us/">gitea</a> server where I keep all my private repos, the code I feel confident enough to make public is on <a href="https://github.com/clemak27">GitHub</a>. I'm a Linux user <a href="https://archlinux.org/">btw</a> and do all of my editing in neovim and IntelliJ.
 
     <h3> Music </h3>
-    I mostly listen to prog rock and metal. <a href="https://www.youtube.com/watch?v=DrDM6V08wcE">Here's a good example of music I like</a> (from my favorite artist :) ). Unfortunatly I don't play an instrument, but I'm hoping to learn guitar eventually.
+    I mostly listen to progressive rock and metal. <a href="https://www.youtube.com/watch?v=DrDM6V08wcE">Here's a good example of music I like</a> (from my favorite artist :) ). Unfortunatly I don't play an instrument, but I'm hoping to learn guitar eventually.
 
     <h3>Space</h3>
     Space has always fascinated me since my childhood, both the scientific background and its exploration by humanity.
