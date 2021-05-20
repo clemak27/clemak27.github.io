@@ -30,7 +30,7 @@
 
       <b-carousel-slide
         caption="A workspace with multiple windows"
-        text="tty-clock, bottom, spotify-tui, ranger"
+        text="tty-clock, bottom, ranger, cmatrix"
         img-src="~/assets/linux_setup/mult.png"
       />
 
