@@ -6,10 +6,8 @@
     <a href="https://github.com/clemak27/linux_setup">dotfiles etc.</a>
     <h4> Some software I use: </h4>
     <ul>
-      <li> KDE + i3-gaps </li>
-      <p> After trying out KDE and GNOME extensivly, I setteled on using KDE. This mostly came down to the KDE team providing better software and extension support than GNOME, also vastly improved styling options. Nowadays I'm also using i3wm together with KDE for that sweet tiling wm experience. </p>
-      <li> polybar </li>
-      <p> Highly customizable status bar. Fits i3wm perfectly imo. </p>
+      <li> Plasma + Kröhnkite + latte-dock </li>
+      <p> After trying out Plasma and GNOME extensivly, I setteled on using Plasma. This mostly came down to Plasma + the KDE framework providing better software and extension support than GNOME, also vastly improved styling options. I also used i3wm for several months, but some issues with picom made me unfortunately reconsider it. Nowadays I'm using KDE together with Kröhnkite, a script that provides automatic tiling. I also use latte-dock, since it is vastly superior to the default panel. </p>
       <li> alacritty </li>
       <p> Fast GPU accelerated terminal emulator. If used Konsole and Kitty before that and while I kinda miss my ligatures, I enjoy alacritty's speed and simplicity. </p>
       <li> neovim </li>
