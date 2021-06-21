@@ -6,10 +6,8 @@
     <a href="https://github.com/clemak27/linux_setup">dotfiles etc.</a>
     <h4> Some software I use: </h4>
     <ul>
-      <li> KDE + i3-gaps </li>
-      <p> After trying out KDE and GNOME extensivly, I setteled on using KDE. This mostly came down to the KDE team providing better software and extension support than GNOME, also vastly improved styling options. Nowadays I'm also using i3wm together with KDE for that sweet tiling wm experience. </p>
-      <li> polybar </li>
-      <p> Highly customizable status bar. Fits i3wm perfectly imo. </p>
+      <li> i3-gaps </li>
+      <p> After using KDE extensivly, I setteled on using i3 as window manager. I like the automatic tiling and the configuration via dotfiles. </p>
       <li> alacritty </li>
       <p> Fast GPU accelerated terminal emulator. If used Konsole and Kitty before that and while I kinda miss my ligatures, I enjoy alacritty's speed and simplicity. </p>
       <li> neovim </li>
