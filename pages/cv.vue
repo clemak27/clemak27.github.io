@@ -21,7 +21,7 @@
     I enjoy watching science fiction movies (and playing scifi games) that are both entertaining and thought-provoking. Bladerunner 2049 is a good example for that (and also visually beautiful in my opinion). I'm also a big Star Wars fan (despite of Disney).
 
     <h3>Formula 1</h3>
-    I'm not really into sports (and not very sporty myself), but I do enjoy watching F1. I have to admint I'm not the greatest Mercedes fan and more of a Verstappen guy.
+    I'm not really into sports (and not very sporty myself), but I do enjoy watching F1. Verstappen/Norris fan :)
 
     <h3>Gaming</h3>
     I do enjoy a good game from time to time. I used to play quite a lot on nintendo consoles when I was younger, nowadays I mostly enjoy indie and older titles on my PC. I also spend way too many hours playing Guild Wars when I was a teenager.
