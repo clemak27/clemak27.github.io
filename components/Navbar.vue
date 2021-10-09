@@ -8,7 +8,8 @@
       <b-navbar-nav>
         <b-nav-item to="/">Home</b-nav-item>
         <b-nav-item to="linux_setup">Linux Setup</b-nav-item>
-        <b-nav-item to="cats">Cats</b-nav-item>
+        <b-nav-item to="home_network">Home Server</b-nav-item>
+        <b-nav-item to="cats">Random Cats</b-nav-item>
         <b-nav-item to="cv">About me</b-nav-item>
         <b-nav-item to="about">About this page</b-nav-item>
       </b-navbar-nav>
