@@ -19,18 +19,18 @@
       />
 
       <b-carousel-slide
-        caption="Empty Workspace"
+        caption="Wallpaper"
         img-src="~/assets/linux_setup/empty.png"
       />
 
       <b-carousel-slide
-        caption="A workspace with one window"
+        caption="Firefox"
         img-src="~/assets/linux_setup/ff.png"
       />
 
       <b-carousel-slide
-        caption="A workspace with multiple windows"
-        text="tty-clock, bottom, ranger, pipes-rs"
+        caption="A tmux-session with multiple panes"
+        text="tty-clock, bottom, ranger, pipes.sh"
         img-src="~/assets/linux_setup/mult.png"
       />
 

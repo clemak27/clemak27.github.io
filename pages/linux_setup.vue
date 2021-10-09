@@ -6,10 +6,12 @@
     <a href="https://github.com/clemak27/linux_setup">dotfiles etc.</a>
     <h4> Some software I use: </h4>
     <ul>
-      <li> Plasma/i3-gaps </li>
+      <li> KDE Plasma </li>
+      <li> rofi </li>
+      <li> firefox </li>
       <li> alacritty </li>
       <li> neovim </li>
-      <li> firefox </li>
+      <li> tmux </li>
       <li> fzf </li>
       <li> ranger </li>
     </ul>
