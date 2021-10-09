@@ -29,6 +29,11 @@ jobs:
       - name: lint
         run: npm run lint
 
+      - name: test
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm run dev
+
       - name: generate
         run: npm run generate
 
