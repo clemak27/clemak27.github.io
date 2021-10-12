@@ -1,6 +1,6 @@
 {
   "branchPrefix": "renovate/",
-  "dryRun": true,
+  "dryRun": false,
   "username": "renovate",
   "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
   "onboarding": false,
