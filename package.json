@@ -32,6 +32,6 @@
     "eslint-plugin-promise": "5.1.0",
     "eslint-plugin-vue": "7.19.1",
     "eslint-webpack-plugin": "3.0.1",
-    "nodemon": "2.0.13"
+    "nodemon": "2.0.14"
   }
 }
