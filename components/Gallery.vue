@@ -35,7 +35,7 @@
       />
 
       <b-carousel-slide
-        caption="2 tmux panes, with neovim"
+        caption="tmux+neovim"
         img-src="~/assets/linux_setup/neovim.png"
       />
     </b-carousel>

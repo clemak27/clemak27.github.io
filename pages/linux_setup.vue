@@ -5,7 +5,7 @@
     <a href="https://github.com/clemak27/linux_setup">dotfiles etc. are here</a>
 
     <div>
-      <h2> The journey so far </h2>
+      <h2> My journey so far </h2>
 
       <p>
         My Linux journey took me to many distributions over the years:
@@ -84,7 +84,7 @@ li {
   font-weight: bold;
 }
 
-#btw {
- font-size: 7px;
+h2 {
+  margin-top: 1em;
 }
 </style>
