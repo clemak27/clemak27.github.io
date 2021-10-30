@@ -14,7 +14,7 @@
       @sliding-end="onSlideEnd"
     >
       <b-carousel-slide
-        caption="neofetch :)"
+        caption="neofetch"
         img-src="~/assets/linux_setup/nf.png"
       />
 
@@ -29,13 +29,13 @@
       />
 
       <b-carousel-slide
-        caption="A tmux-session with multiple panes"
-        text="tty-clock, bottom, ranger, pipes.sh"
+        caption="Multiple applications"
+        text="Firefox, alacritty and Dolphin"
         img-src="~/assets/linux_setup/mult.png"
       />
 
       <b-carousel-slide
-        caption="neovim"
+        caption="tmux+neovim"
         img-src="~/assets/linux_setup/neovim.png"
       />
     </b-carousel>
