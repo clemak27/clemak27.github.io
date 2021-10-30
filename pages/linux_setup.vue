@@ -35,14 +35,14 @@
       <div>
         <h5> Manjaro </h5>
         <p>
-          While I was occasionally still dual booting windows until now, it was finally time to use linux all the time, also on my desktop PC. I needed and wanted more up to date software for this, so I switched to a rolling release distro and ended up with Manjaro. The few months I used it, it was quite ok, and also supported my hardware well. That said, there were and still are some concerns with Manjaro (there a good writeup <a href="https://manjarno.snorlax.sh/">here</a>). So I just went to use Arch proper.
+          While I was occasionally still dual booting windows until now, it was finally time to use Linux all the time, also on my desktop PC. I needed and wanted more up to date software for this, so I switched to a rolling release distro and ended up with Manjaro. The few months I used it, it was quite ok, and also supported my hardware well. That said, there were and still are some concerns with Manjaro (there a good writeup <a href="https://manjarno.snorlax.sh/">here</a>). So I just went to use Arch proper.
         </p>
       </div>
 
       <div>
         <h5> Arch Linux </h5>
         <p>
-          Despite the common opinion, I found Arch actually be easy to install, the guide in the archwiki is pretty detailed. I also soon began documenting and automating the install process to fit my needs in case I wanted to start fresh. That said, Arch has been extremly stable for me and the legendary wiki and a community has a wealth of knowledge if one encounters problems.
+          Despite the common opinion, I found Arch actually be easy to install, the guide in the archwiki is pretty detailed. I also soon began documenting and automating the install process to fit my needs in case I wanted to start fresh. That said, Arch has been extremely stable for me and the legendary wiki and a community has a wealth of knowledge if one encounters problems.
         </p>
         <p>
           In the years I used Arch, I also learned a lot of new things about the inner workings of Linux. This was also the time-period where I learned to love vim, which I use daily now. While still staying with Plasma most of the time, I also used i3 for a while (and took one or 2 looks what GNOME is up to)
@@ -61,7 +61,7 @@
           There are 2 things I find great about Nix: The whole system-configuration in declared in one file, and the system is setup exactly the way it is defined, with all packages and customizations. The second is the awesome nix_shell, that creates local development environments in an awesome way. Want to see how your node14 application works with node 16? Just create a nix-shell without screwing up your global install or setting up nvm.
         </p>
         <p>
-          Despite still being fresh, I am satisfied with Nix so far. There are still things to optimize and laern (e.g. flakes), but thats half the fun :D
+          Despite still being fresh, I am satisfied with Nix so far. There are still things to optimize and learn (e.g. flakes), but that's half the fun :D
         </p>
       </div>
     </div>
