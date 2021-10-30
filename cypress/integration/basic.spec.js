@@ -20,7 +20,7 @@ describe('Basic tests', () => {
   context('Linux Setup', () => {
     it('contains content', () => {
       cy.visit('/linux_setup')
-      cy.get('.linux_setup').get('h1').contains('My journey so far')
+      cy.get('.linux_setup').get('h2').contains('My journey so far')
       cy.get('.linux_setup').get('#carousel')
       cy.get('.linux_setup').get('h5').contains('Linux Mint')
       cy.get('.linux_setup').get('h5').contains('Ubuntu')
