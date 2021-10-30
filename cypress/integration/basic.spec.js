@@ -20,10 +20,14 @@ describe('Basic tests', () => {
   context('Linux Setup', () => {
     it('contains content', () => {
       cy.visit('/linux_setup')
-      cy.get('.linux_setup').get('h1').contains('My Linux Setup')
+      cy.get('.linux_setup').get('h1').contains('My journey so far')
       cy.get('.linux_setup').get('#carousel')
-      cy.get('.linux_setup').get('h2').contains('Some software I use:')
-      cy.get('.linux_setup').get('h2').contains('Nix')
+      cy.get('.linux_setup').get('h5').contains('Linux Mint')
+      cy.get('.linux_setup').get('h5').contains('Ubuntu')
+      cy.get('.linux_setup').get('h5').contains('Kubuntu')
+      cy.get('.linux_setup').get('h5').contains('Manjaro')
+      cy.get('.linux_setup').get('h5').contains('Arch Linux')
+      cy.get('.linux_setup').get('h5').contains('NixOS')
     })
   })
 
