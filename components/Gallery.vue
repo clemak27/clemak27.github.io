@@ -30,7 +30,7 @@
 
       <b-carousel-slide
         caption="Multiple applications"
-        text="Firefox, alacritty and Dolphin"
+        text="tty-clock, bottom, ranger, pipes.sh"
         img-src="~/assets/linux_setup/mult.png"
       />
 
