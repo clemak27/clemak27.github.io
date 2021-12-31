@@ -3,7 +3,7 @@
     <h1> My Home Network </h1>
 
     <p>
-      I also have a small server at home, running some services. Nothing of those is public, and only accessible via VPN. Currently they are deployed with docker(compose), I am planning to eventually replace this with a fancy k8s setup. My "server" is also a repurposed laptop, this might also change in the future. Also I might switch from debian to somethings else. My old raspberry pi also needs a use. Time and motivation are hard to come by these days. ¯\_(ツ)_/¯
+      I also have a small server at home, running some services. Nothing of those is public, and only accessible via VPN. Currently they are deployed with docker, I am planning to eventually replace this with a fancy k8s setup. My "server" is also a repurposed laptop, this might also change in the future. My old raspberry pi also needs a use. Time and motivation are hard to come by these days. ¯\_(ツ)_/¯
     </p>
 
     <div id="nf">
@@ -35,6 +35,9 @@
           </a>
           <a href="https://github.com/navidrome/navidrome">
             <b-img src="https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png" alt="navidrome" class="srv_image" />
+          </a>
+          <a href="https://www.plex.tv">
+            <b-img src="https://www.rapidseedbox.com/wp-content/uploads/plex-logo.png" alt="plex" class="srv_image" />
           </a>
         </b-row>
       </b-container>
