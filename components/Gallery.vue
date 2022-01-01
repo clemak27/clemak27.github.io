@@ -6,7 +6,7 @@
       :interval="4000"
       controls
       indicators
-      background="#0d1117"
+      background="#121212"
       img-width="1920"
       img-height="1080"
       style="text-shadow: 1px 1px 2px #333;"
