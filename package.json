@@ -23,7 +23,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "8.0.0",
     "cypress": "9.2.1",
-    "eslint": "8.6.0",
+    "eslint": "8.7.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jest": "25.3.4",
