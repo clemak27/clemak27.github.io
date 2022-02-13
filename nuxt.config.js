@@ -45,7 +45,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/scss/custom.scss'
+    // '@/assets/scss/custom.scss'
   ],
 
   /*
@@ -63,8 +63,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/vuetify', {theme: { dark: true }}],
+
     '@nuxtjs/axios',
-    'bootstrap-vue/nuxt'
+    // 'bootstrap-vue/nuxt'
   ],
 
   /*
@@ -93,7 +95,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.plugins.push(

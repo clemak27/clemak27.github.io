@@ -1,28 +1,65 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="dark" class="w-100">
-    <b-navbar-brand to="/" />
+  <div>
+    <v-navigation-drawer
+      v-model="drawer"
+      app
+    >
+      <v-list
+        dense
+        nav
+      >
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="text-h6">
+            Title
+          </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
 
-    <b-navbar-toggle target="nav-collapse" />
+      <v-divider></v-divider>
+        <v-list-item
+          v-for="item in items"
+          :key="item.title"
+          link
+          :to="item.navi"
+        >
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
 
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <b-nav-item to="/">Home</b-nav-item>
-        <b-nav-item to="linux_setup">Linux Setup</b-nav-item>
-        <b-nav-item to="home_network">Home Server</b-nav-item>
-        <b-nav-item to="cats">Random Cats</b-nav-item>
-        <b-nav-item to="cv">About me</b-nav-item>
-        <b-nav-item to="about">About this page</b-nav-item>
-      </b-navbar-nav>
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
 
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="https://github.com/clemak27">GitHub</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+<v-app-bar
+      absolute
+      color="blue"
+      elevate-on-scroll
+      scroll-target="#scrolling-techniques-7"
+    >
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+
+      <v-toolbar-title>Title</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+    </v-app-bar>
+
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+  export default {
+    data: () => ({
+      drawer: null,
+      selectedItem: 1,
+      items: [
+        { title: 'Home', icon: 'mdi-home', navi: '/' },
+        { title: 'Linux Setup', icon: 'mdi-nix', navi: 'linux_setup'  },
+        /* { title: 'Homelab', icon: 'mdi-server', navi: 'home_network'  }, */
+      ],
+    }),
+  }
 </script>

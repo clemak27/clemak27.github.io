@@ -1,4 +1,6 @@
 <template>
+  <v-container>
+    <v-layout>
   <div class="home_network">
     <h1> My Home Network </h1>
 
@@ -43,6 +45,8 @@
       </b-container>
     </div>
   </div>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
