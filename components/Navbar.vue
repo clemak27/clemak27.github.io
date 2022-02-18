@@ -57,8 +57,8 @@
       selectedItem: 1,
       items: [
         { title: 'Home', icon: 'mdi-home', navi: '/' },
-        { title: 'Linux Setup', icon: 'mdi-nix', navi: 'linux_setup'  },
-        /* { title: 'Homelab', icon: 'mdi-server', navi: 'home_network'  }, */
+        { title: 'Linux Setup', icon: 'mdi-fedora', navi: 'linux_setup'  },
+        { title: 'Homelab', icon: 'mdi-nix', navi: 'home_network'  },
       ],
     }),
   }
