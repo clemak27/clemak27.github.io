@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout>
-      <div class="linux_setup">
+      <v-container class="linux_setup">
         <h1> My Linux Setup </h1>
         <Gallery />
         <a href="https://github.com/clemak27/linux_setup">dotfiles etc. are here</a>
@@ -14,35 +14,35 @@
           </p>
 
           <div>
-            <h5> Linux Mint </h5>
+            <h3> Linux Mint </h3>
             <p>
               Guess everyone had to start somewhere ¯\_(ツ)_/¯ For the things I did back then, which was mostly taking notes for university classes and some simple programming, it was ok. Cinnamon was also fine at the beginning, coming from windows.
             </p>
           </div>
 
           <div>
-            <h5> Ubuntu </h5>
+            <h3> Ubuntu </h3>
             <p>
               After that, I used vanilla Ubuntu for a while (back in a time where it was still kinda ok and not full of snaps). I thought the way GNOME worked with the different workspaces was cool.
             </p>
           </div>
 
           <div>
-            <h5> Kubuntu </h5>
+            <h3> Kubuntu </h3>
             <p>
               I soon switched to KDE Plasma in the form of Kubuntu. Which was awesome, all the things you could customize. The whole set of KDE software is also more up my alley than their GNOME equivalents.
             </p>
           </div>
 
           <div>
-            <h5> Manjaro </h5>
+            <h3> Manjaro </h3>
             <p>
               While I was occasionally still dual booting windows until now, it was finally time to use Linux all the time, also on my desktop PC. I needed and wanted more up to date software for this, so I switched to a rolling release distro and ended up with Manjaro. The few months I used it, it was quite ok, and also supported my hardware well. That said, there were and still are some concerns with Manjaro (there a good writeup <a href="https://manjarno.snorlax.sh/">here</a>). So I just went to use Arch proper.
             </p>
           </div>
 
           <div>
-            <h5> Arch Linux </h5>
+            <h3> Arch Linux </h3>
             <p>
               Despite the common opinion, I found Arch actually be easy to install, the guide in the archwiki is pretty detailed. I also soon began documenting and automating the install process to fit my needs in case I wanted to start fresh. That said, Arch has been extremely stable for me and the legendary wiki and a community has a wealth of knowledge if one encounters problems.
             </p>
@@ -55,7 +55,7 @@
           </div>
 
           <div>
-            <h5> NixOS </h5>
+            <h3> NixOS </h3>
             <p>
               I eventually came to know the nix ecosystem. After using the (community made) home-manager tool to manage my dotfiles, I recently took the plunge and replaced Arch with NixOS.
             </p>
@@ -67,7 +67,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </v-container>
     </v-layout>
   </v-container>
 </template>
