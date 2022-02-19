@@ -60,8 +60,8 @@
         { title: 'Linux Setup', icon: 'mdi-fedora', navi: 'linux_setup' },
         { title: 'Homelab', icon: 'mdi-nix', navi: 'home_network' },
         { title: 'Random Cat', icon: 'mdi-cat', navi: 'cats' },
-        /* { title: 'About Me', icon: 'mdi-account', navi: 'cv' }, */
-        /* { title: 'About this page', icon: 'mdi-card-search', navi: 'about' }, */
+        { title: 'About Me', icon: 'mdi-account', navi: 'cv' },
+        { title: 'About this page', icon: 'mdi-card-search', navi: 'about' },
       ],
     }),
   }

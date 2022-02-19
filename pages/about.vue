@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <v-container class="about">
     <div>
       <h1>About this page</h1>
       <ul>
@@ -8,7 +8,7 @@
           using <a href="https://nuxtjs.org/">nuxt.js</a>.
         </li>
         <li>
-          Designed with <a href="https://bootstrap-vue.org/">bootstrap-vue</a>.
+          Designed with <a href="https://vuetifyjs.com/en/">vuetifyjs</a>.
         </li>
         <li>
           Cat pictures provided by
@@ -16,7 +16,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>

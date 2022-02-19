@@ -1,7 +1,7 @@
 <template>
-  <v-container>
+  <v-container class="home_network">
     <v-layout>
-  <div class="home_network">
+  <div>
     <h1> My Homelab </h1>
 
     <p>
