@@ -3,6 +3,7 @@
     <v-layout>
       <v-container class="linux_setup">
         <h1> My Linux Setup </h1>
+        <h1> TODO: Update images </h1>
         <Gallery />
         <a href="https://github.com/clemak27/linux_setup">dotfiles etc. are here</a>
 
