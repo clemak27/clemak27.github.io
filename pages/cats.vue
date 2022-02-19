@@ -1,25 +1,26 @@
 <template>
-  <div class="cats justify-content-center mb-3">
-    <div id="refreshButton">
-      <b-button
-        :disabled="loading"
-        variant="primary"
-        @click="fetchCat()"
-      >
-        I want another cat
-      </b-button>
-    </div>
+  <div class="cats">
 
     <div
       v-if="!loading"
-      id="catContainer"
     >
-      <img :src="catImage">
+      <v-btn
+        depressed
+        elevation="2"
+        @click="fetchCat()"
+      >I want another cat</v-btn>
     </div>
 
     <div v-else>
-      <loading />
+      <v-btn
+        depressed
+        elevation="2"
+        loading
+      >I want another cat</v-btn>
     </div>
+
+    <img :src="catImage">
+
   </div>
 </template>
 
@@ -51,7 +52,7 @@ export default {
 
 <style>
 .cats {
-  margin: 2em;
+  margin: 5em;
   text-align: center;
 }
 
