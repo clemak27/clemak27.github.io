@@ -11,7 +11,7 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
-            TODO: Title
+            Content
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
@@ -42,7 +42,8 @@
     >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>TODO: Title</v-toolbar-title>
+      <!-- todo: add prper title -->
+      <v-toolbar-title></v-toolbar-title>
 
       <v-spacer></v-spacer>
     </v-app-bar>
