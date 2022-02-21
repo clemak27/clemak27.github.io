@@ -6,37 +6,42 @@ describe('Basic tests', () => {
       cy.get('.index').get('h1').contains('hello world!')
     })
 
-    it('contains navbar', () => {
-      cy.get('nav').get('.navbar-nav').contains('Home').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('Linux Setup').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('Home Server').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('Random Cats').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('About me').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('About this page').and('have.class', 'nav-link')
-      cy.get('nav').get('.navbar-nav').contains('GitHub').and('have.class', 'nav-link')
+    it('contains navigation', () => {
+      cy.get('nav').should('have.class', 'v-navigation-drawer--close')
+      cy.get('header').get('button').click();
+      cy.get('nav').should('have.class', 'v-navigation-drawer--open')
+
+      cy.get('nav').contains('Home').and('have.class', 'v-list-item')
+      cy.get('nav').contains('Linux Setup').and('have.class', 'v-list-item')
+      cy.get('nav').contains('Homelab').and('have.class', 'v-list-item')
+      cy.get('nav').contains('Random Cat').and('have.class', 'v-list-item')
+      cy.get('nav').contains('About Me').and('have.class', 'v-list-item')
+      cy.get('nav').contains('About this page').and('have.class', 'v-list-item')
     })
   })
 
   context('Linux Setup', () => {
     it('contains content', () => {
       cy.visit('/linux_setup')
+      cy.get('.linux_setup').get('h1').contains('My Linux Setup')
+      cy.get('.linux_setup').get('.v-carousel')
       cy.get('.linux_setup').get('h2').contains('My journey so far')
-      cy.get('.linux_setup').get('#carousel')
-      cy.get('.linux_setup').get('h5').contains('Linux Mint')
-      cy.get('.linux_setup').get('h5').contains('Ubuntu')
-      cy.get('.linux_setup').get('h5').contains('Kubuntu')
-      cy.get('.linux_setup').get('h5').contains('Manjaro')
-      cy.get('.linux_setup').get('h5').contains('Arch Linux')
-      cy.get('.linux_setup').get('h5').contains('NixOS')
+      cy.get('.linux_setup').get('h3').contains('Linux Mint')
+      cy.get('.linux_setup').get('h3').contains('Ubuntu')
+      cy.get('.linux_setup').get('h3').contains('Kubuntu')
+      cy.get('.linux_setup').get('h3').contains('Manjaro')
+      cy.get('.linux_setup').get('h3').contains('Arch Linux')
+      cy.get('.linux_setup').get('h3').contains('NixOS')
+      cy.get('.linux_setup').get('h3').contains('Fedora Silverblue')
     })
   })
 
   context('Home Server', () => {
     it('contains content', () => {
       cy.visit('/home_network')
-      cy.get('.home_network').get('h1').contains('My Home Network')
-      cy.get('.home_network').get('h2').contains('neofetch').get('img')
-      cy.get('.home_network').get('h2').contains('services')
+      cy.get('.home_network').get('h1').contains('My Homelab')
+      cy.get('.home_network').get('h2').contains('dashboard')
+      cy.get('.home_network').get('h2').contains('neofetch')
     })
   })
 
@@ -59,8 +64,8 @@ describe('Basic tests', () => {
       })
 
       cy.visit('/cats')
-      cy.get('.cats').get('#refreshButton')
-      cy.get('.cats').get('#catContainer')
+      cy.get('.cats').get('button')
+      cy.get('.cats').get('img')
     })
   })
 
