@@ -63,8 +63,7 @@
             <p>
               There are 2 things I find great about Nix: The whole system-configuration in declared in one file, and the system is setup exactly the way it is defined, with all packages and customizations. The second is the awesome nix_shell, that creates local development environments in an awesome way. Want to see how your node14 application works with node 16? Just create a nix-shell without screwing up your global install or setting up nvm.
             </p>
-            <p>
-            </p>
+            <p />
           </div>
 
           <div>
@@ -72,8 +71,7 @@
             <p>
               Despite my initial hype for NixOS I was not 100% satisfied with it. I switched to Fedora Silverblue. It has fancy containers, flatpaks and the toolbox. I currently still use home-manager to organize my dotfiles and my server still runs NixOS. Fedora just works™
             </p>
-            <p>
-            </p>
+            <p />
           </div>
         </div>
       </v-container>

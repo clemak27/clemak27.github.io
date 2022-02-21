@@ -30,14 +30,13 @@
         <div id="services">
           <h2> dashboard </h2>
           <p> made with <a href="https://github.com/bastienwirtz/homer">homer</a></p>
-          <v-img :src="require('~/assets/home_network/homer.png')" fluid></v-img>
+          <v-img :src="require('~/assets/home_network/homer.png')" fluid />
         </div>
 
         <div id="nf">
           <h2> neofetch </h2>
-          <v-img :src="require('~/assets/home_network/nf.png')" max-height=640 contain></v-img>
+          <v-img :src="require('~/assets/home_network/nf.png')" max-height="640" contain />
         </div>
-
       </v-container>
     </v-layout>
   </v-container>

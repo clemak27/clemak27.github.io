@@ -63,9 +63,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    ['@nuxtjs/vuetify', {theme: { dark: true }}],
+    ['@nuxtjs/vuetify', { theme: { dark: true } }],
 
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
     // 'bootstrap-vue/nuxt'
   ],
 
@@ -95,7 +95,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.plugins.push(

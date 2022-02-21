@@ -1,6 +1,5 @@
 <template>
   <div class="cats">
-
     <div
       v-if="!loading"
     >
@@ -8,7 +7,9 @@
         depressed
         elevation="2"
         @click="fetchCat()"
-      >I want another cat</v-btn>
+      >
+        I want another cat
+      </v-btn>
     </div>
 
     <div v-else>
@@ -16,11 +17,12 @@
         depressed
         elevation="2"
         loading
-      >I want another cat</v-btn>
+      >
+        I want another cat
+      </v-btn>
     </div>
 
     <img :src="catImage">
-
   </div>
 </template>
 

@@ -8,15 +8,15 @@
         dense
         nav
       >
-      <v-list-item>
-        <v-list-item-content>
-          <v-list-item-title class="text-h6">
-            Content
-          </v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
+        <v-list-item>
+          <v-list-item-content>
+            <v-list-item-title class="text-h6">
+              Content
+            </v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
 
-      <v-divider></v-divider>
+        <v-divider />
         <v-list-item
           v-for="item in items"
           :key="item.title"
@@ -34,36 +34,35 @@
       </v-list>
     </v-navigation-drawer>
 
-<v-app-bar
+    <v-app-bar
       absolute
       color="blue"
       elevate-on-scroll
       scroll-target="#scrolling-techniques-7"
     >
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer" />
 
       <!-- todo: add prper title -->
-      <v-toolbar-title></v-toolbar-title>
+      <v-toolbar-title />
 
-      <v-spacer></v-spacer>
+      <v-spacer />
     </v-app-bar>
-
   </div>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      drawer: null,
-      selectedItem: 1,
-      items: [
-        { title: 'Home', icon: 'mdi-home', navi: '/' },
-        { title: 'Linux Setup', icon: 'mdi-fedora', navi: 'linux_setup' },
-        { title: 'Homelab', icon: 'mdi-nix', navi: 'home_network' },
-        { title: 'Random Cat', icon: 'mdi-cat', navi: 'cats' },
-        { title: 'About Me', icon: 'mdi-account', navi: 'cv' },
-        { title: 'About this page', icon: 'mdi-card-search', navi: 'about' },
-      ],
-    }),
-  }
+export default {
+  data: () => ({
+    drawer: null,
+    selectedItem: 1,
+    items: [
+      { title: 'Home', icon: 'mdi-home', navi: '/' },
+      { title: 'Linux Setup', icon: 'mdi-fedora', navi: 'linux_setup' },
+      { title: 'Homelab', icon: 'mdi-nix', navi: 'home_network' },
+      { title: 'Random Cat', icon: 'mdi-cat', navi: 'cats' },
+      { title: 'About Me', icon: 'mdi-account', navi: 'cv' },
+      { title: 'About this page', icon: 'mdi-card-search', navi: 'about' }
+    ]
+  })
+}
 </script>
