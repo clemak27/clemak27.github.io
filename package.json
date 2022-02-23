@@ -1,6 +1,6 @@
 {
   "name": "clemak27.github.io",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A nuxt.js page about me.",
   "private": true,
   "scripts": {
@@ -14,14 +14,11 @@
   "dependencies": {
     "@nuxtjs/axios": "5.13.6",
     "axios": "0.25.0",
-    "bootstrap-vue": "2.21.2",
-    "cross-env": "7.0.3",
-    "node-sass": "6.0.1",
-    "nuxt": "2.15.8",
-    "sass-loader": "10.2.1"
+    "nuxt": "2.15.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "8.0.0",
+    "@nuxtjs/vuetify": "1.12.3",
     "cypress": "9.2.1",
     "eslint": "8.6.0",
     "eslint-config-standard": "16.0.3",

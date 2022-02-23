@@ -1,48 +1,45 @@
 <template>
-  <div class="home_network">
-    <h1> My Home Network </h1>
+  <v-container>
+    <v-layout>
+      <v-container class="home_network">
+        <h1> My Homelab </h1>
 
-    <p>
-      I also have a small server at home, running some services. Nothing of those is public, and only accessible via VPN. Currently they are deployed with docker, I am planning to eventually replace this with a fancy k8s setup. My "server" is also a repurposed laptop, this might also change in the future. My old raspberry pi also needs a use. Time and motivation are hard to come by these days. ¯\_(ツ)_/¯
-    </p>
+        <p>
+          I have a small server at home, running some services host for
+          myself. I don't know if you can even call a single server
+          homelab, but hey, it's a start. ¯\_(ツ)_/¯
+        </p>
+        <p>
+          My server is a reused laptop, a Tinkpad e470. It is running
+          NixOS. The bulk of data is stored on 2 4TB HDDs.
+          Nothing of those is public, and only accessible via VPN. It
+          uses PiHole to resolve urls to the servers ip and traefik to
+          point the server's urls to the container ports.
+          Whenever possible I run the services in containers (docker to
+          be exact, since traefik doesn't support podman properly)
+        </p>
+        <p>
+          I also have a Raspberry Pi 3 laying around that might get
+          integrated into my Homelab later. I would also like to
+          experiment with k8s more, but with just a single server, I
+          don't think it will give me much benefit unfortunately (and
+          the hardware prices are still a bit too high to invest some
+          money in that).
+        </p>
 
-    <div id="nf">
-      <h2> neofetch </h2>
-      <b-img src="~/assets/home_network/nf.png" fluid alt="neofetch" />
-    </div>
+        <div id="services">
+          <h2> dashboard </h2>
+          <p> made with <a href="https://github.com/bastienwirtz/homer">homer</a></p>
+          <v-img :src="require('~/assets/home_network/homer.png')" fluid />
+        </div>
 
-    <div id="services">
-      <h2> services </h2>
-      <b-container fluid class="p-4 bg-dark">
-        <b-row>
-          <a href="https://www.wireguard.com/">
-            <b-img src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/3a/16/01/3a16010c-138b-4515-c2d4-573cfae222db/source/512x512bb.png" alt="wireguard" class="srv_image" />
-          </a>
-          <a href="https://pi-hole.net/">
-            <b-img src="https://wp-cdn.pi-hole.net/wp-content/uploads/2016/12/Vortex-R.webp" alt="pi-hole" class="srv_image" />
-          </a>
-          <a href="https://github.com/traefik/traefik">
-            <b-img src="https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png" alt="traefik" class="srv_image" />
-          </a>
-          <a href="https://github.com/syncthing/syncthing">
-            <b-img src="https://avatars.githubusercontent.com/u/7628018?s=200&v=4" alt="syncthing" class="srv_image" />
-          </a>
-          <a href="https://github.com/go-gitea/gitea">
-            <b-img src="https://raw.githubusercontent.com/go-gitea/gitea/main/public/img/gitea.svg" alt="gitea" class="srv_image" />
-          </a>
-          <a href="https://github.com/miniflux/v2">
-            <b-img src="https://avatars.githubusercontent.com/u/10584991?s=200&v=4" alt="miniflux" class="srv_image" />
-          </a>
-          <a href="https://github.com/navidrome/navidrome">
-            <b-img src="https://raw.githubusercontent.com/navidrome/navidrome/master/resources/logo-192x192.png" alt="navidrome" class="srv_image" />
-          </a>
-          <a href="https://www.plex.tv">
-            <b-img src="https://www.rapidseedbox.com/wp-content/uploads/plex-logo.png" alt="plex" class="srv_image" />
-          </a>
-        </b-row>
-      </b-container>
-    </div>
-  </div>
+        <div id="nf">
+          <h2> neofetch </h2>
+          <v-img :src="require('~/assets/home_network/nf.png')" max-height="640" contain />
+        </div>
+      </v-container>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -55,15 +52,5 @@ export default {
 .home_network {
   padding: 3em;
   text-align: left;
-}
-
-li {
-  font-weight: bold;
-}
-
-.srv_image {
-  height: 150px;
-  width: 150px;
-  margin: 5px;
 }
 </style>
