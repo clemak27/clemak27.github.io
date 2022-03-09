@@ -85,3 +85,4 @@ sw.*
 
 # GitLab Pages
 public/
+.direnv/

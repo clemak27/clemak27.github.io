@@ -45,7 +45,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/scss/custom.scss'
+    // '@/assets/scss/custom.scss'
   ],
 
   /*
@@ -63,8 +63,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios',
-    'bootstrap-vue/nuxt'
+    ['@nuxtjs/vuetify', { theme: { dark: true } }],
+
+    '@nuxtjs/axios'
+    // 'bootstrap-vue/nuxt'
   ],
 
   /*
