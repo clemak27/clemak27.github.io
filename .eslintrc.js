@@ -11,6 +11,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/singleline-html-element-content-newline': 'off',
-    'nuxt/no-cjs-in-config': 'off'
+    'nuxt/no-cjs-in-config': 'off',
+    'vue/multi-word-component-names': 'off'
   }
 }
