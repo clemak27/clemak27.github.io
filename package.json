@@ -20,7 +20,7 @@
     "@nuxtjs/eslint-config": "8.0.0",
     "@nuxtjs/vuetify": "1.12.3",
     "cypress": "9.2.1",
-    "eslint": "8.10.0",
+    "eslint": "8.11.0",
     "eslint-config-standard": "16.0.3",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jest": "26.1.1",
