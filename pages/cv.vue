@@ -15,7 +15,7 @@
         I have a <a href="https://gitea.io/en-us/">gitea</a> instance where I keep all my private repos, the code I feel confident enough to share is on <a href="https://github.com/clemak27">GitHub</a>. I'm a Linux user and do all of my editing in neovim and IntelliJ.
 
         <h3> Music </h3>
-        I mostly listen to progressive rock and other slightly weird music. <a href="https://www.youtube.com/watch?v=qFwcahcDzP4">Here's a good example of music I like</a>. I also picked up a guitar at the end of 2021 and have been practicing since then.
+        I mostly listen to progressive rock and other slightly weird music. <a href="https://www.youtube.com/watch?v=qtgv89oLCOU">Here's a good example of music I like</a>, from one of my favorite artists. I also picked up a guitar at the end of 2021 and have been practicing since then.
 
         <h3>Space</h3>
         Space has always fascinated me since my childhood, both the scientific background and its exploration by humanity.
