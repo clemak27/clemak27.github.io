@@ -40,8 +40,6 @@ describe('Basic tests', () => {
     it('contains content', () => {
       cy.visit('/home_network')
       cy.get('.home_network').get('h1').contains('My Homelab')
-      cy.get('.home_network').get('h2').contains('dashboard')
-      cy.get('.home_network').get('h2').contains('neofetch')
     })
   })
 
