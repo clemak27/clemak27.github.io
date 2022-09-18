@@ -7,36 +7,25 @@
         <p>
           I have a small server at home, running some services host for
           myself. I don't know if you can even call a single server
-          homelab, but hey, it's a start. ¯\_(ツ)_/¯
+          homelab, but hey, it's something. ¯\_(ツ)_/¯
         </p>
         <p>
-          My server is a reused laptop, a Tinkpad e470. It is running
-          NixOS. The bulk of data is stored on 2 4TB HDDs.
+          My server is a "normal" PC with a Node 304 as a case, an
+          AMD Ryzen 5 3600 with 16 GB and currently 8TB HDD (with space for more).
+          It run Fedora CoreOS.
+          Almost all services on it run in docker-containers.
           Nothing of those is public, and only accessible via VPN. It
           uses PiHole to resolve urls to the servers ip and traefik to
           point the server's urls to the container ports.
-          Whenever possible I run the services in containers (docker to
-          be exact, since traefik doesn't support podman properly)
         </p>
         <p>
           I also have a Raspberry Pi 3 laying around that might get
-          integrated into my Homelab later. I would also like to
+          (re-)integrated into my Homelab later. I would also like to
           experiment with k8s more, but with just a single server, I
           don't think it will give me much benefit unfortunately (and
           the hardware prices are still a bit too high to invest some
           money in that).
         </p>
-
-        <div id="services">
-          <h2> dashboard </h2>
-          <p> made with <a href="https://github.com/bastienwirtz/homer">homer</a></p>
-          <v-img :src="require('~/assets/home_network/homer.png')" fluid />
-        </div>
-
-        <div id="nf">
-          <h2> neofetch </h2>
-          <v-img :src="require('~/assets/home_network/nf.png')" max-height="640" contain />
-        </div>
       </v-container>
     </v-layout>
   </v-container>
