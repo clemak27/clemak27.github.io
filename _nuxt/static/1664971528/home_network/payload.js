@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/home_network", {data:[{}],fetch:{},mutations:void 0});
