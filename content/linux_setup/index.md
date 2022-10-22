@@ -3,8 +3,6 @@ title: Linux Setup
 
 ---
 
-## Gallery
-
 [dotfiles etc. are here](https://github.com/clemak27/linux_setup)
 
 ## My journey so far
@@ -13,9 +11,9 @@ My Linux journey took me to many distributions over the years:
 
 ### Linux Mint
 
-Guess everyone had to start somewhere ¯\\\_(ツ)_/¯ For the things I did back
+Guess everyone had to start somewhere ¯\\\_(ツ)_/¯. For the things I did back
 then, which was mostly taking notes for university classes and some simple
-programming, it was ok. Cinnamon was also fine at the beginning, coming from windows.
+programming, it was ok. Cinnamon was also fine at the beginning, coming from Windows.
 
 ### Ubuntu
 
@@ -61,20 +59,23 @@ not-so-nice experience of not writing down a magic command that fixes an issue.
 
 ### NixOS
 
-I eventually came to know the nix ecosystem. After using the (community made)
-home-manager tool to manage my dotfiles, I recently took the plunge and replaced
+I eventually came to know the Nix ecosystem. After using the (community made)
+home-manager tool to manage my dotfiles, I took the plunge and replaced
 Arch with NixOS.
 
 There are 2 things I find great about Nix: The whole system-configuration in
 declared in one file, and the system is setup exactly the way it is defined,
 with all packages and customizations. The second is the awesome nix_shell,
 that creates local development environments in an awesome way. Want to see how
-your node14 application works with node 16? Just create a nix-shell without
+your node14 application works with node16? Just create a nix-shell without
 screwing up your global install or setting up nvm.
 
 ### Fedora Silverblue
 
 Despite my initial hype for NixOS I was not 100% satisfied with it.
-I switched to Fedora Silverblue. It has fancy containers, flatpaks and the toolbox.
-I currently still use home-manager to organize my dotfiles
-and my server still runs NixOS. Fedora just works™
+I switched to Fedora Silverblue. I like its combination of containers,
+flatpaks and the toolbox. That said, I currently still use home-manager
+to organize my dotfiles, which is both because it would require addidtional
+migration work, and because it allows me to use my dotfiles anywhere else where
+Nix is available. While I did think about returning to NixOS for a while,
+I see no reason to change fot now. Fedora just works™
