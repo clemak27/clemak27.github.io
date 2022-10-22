@@ -27,7 +27,7 @@ I'm a Linux user and do all of my editing in neovim and IntelliJ.
 
 I mostly listen to progressive rock and other slightly weird music.
 I'm also not averted to more classical music and soundtracks. Recently, I've
-also explored a more electronic sound. I also picked up a guitar at the end
+also explored a more ambient/electronic sound. I also picked up a guitar at the end
 of 2021 but stuggle to find time to practise it. I also plan on learning more
 about music production and synthesizers in the future or might pick up a keyboard.
 
