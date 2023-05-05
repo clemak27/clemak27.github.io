@@ -8,15 +8,12 @@ I don't know if you can even call a single server homelab,
 but hey, it's something. ¯\\\_(ツ)_/¯
 
 My server is a "normal" PC with a Node 304 as a case, an AMD Ryzen 5 3600 with
-16 GB and currently 8 TB HDD (with space for more). It runs Fedora CoreOS.
-All services on it run in docker-containers. Nothing of those is public,
-and only accessible via VPN. It uses PiHole to resolve URLs to the server's IP
-and Traefik to point the server's URLs to the container ports.
+16 GB and currently some TB of space. It runs NixOS.
 
-I also have a Raspberry Pi 3 lying around that might get (re-)integrated
-into my homelab later.
+Most services run in a k3s cluster. The cluster is managed with [ArgoCD](https://argoproj.github.io/cd),
+which watches the cluster directory for changes and automatically
+applies them to the cluster.
 
-I would also like to experiment with k8s more,
-but with just a single server, I don't think it will give me much benefit
-unfortunately (and the hardware prices are still a bit too high
-to invest some money in that).
+Nothing of those is public, and only accessible via VPN.
+
+You can find more info [in the repo here](https://github.com/clemak27/homelab).
