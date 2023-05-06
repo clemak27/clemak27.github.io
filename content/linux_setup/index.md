@@ -79,3 +79,12 @@ to organize my dotfiles, which is both because it would require additional
 migration work, and because it allows me to use my dotfiles anywhere else where
 Nix is available. While I did think about returning to NixOS for a while,
 I see no reason to change for now. Fedora just works™
+
+### Returning to NixOS
+
+After more than a year running Silverblue, I returned to NixOS.
+This was mostly due to my stubbornness to migrate my dotfiles from Nix
+to something else. Running my whole setup inside a toolbox worked for many things,
+but did have some issue with containerization. Also, over time, the setup of my
+linux machines and their actual state started to drift. I currently see no reason to
+switch from something else.
