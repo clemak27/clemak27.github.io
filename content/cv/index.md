@@ -16,39 +16,36 @@ for a while until I figured out it wasn't for me.
 ## Coding
 
 I mainly use Java, Go and Java-/Typescript (in NodeJS) for programming,
-but I'm not afraid to try something new. There's also an interest in DevOps
-and I have a server at home running Fedora CoreOS. Automating all the boring
-stuff is also a worthwhile goal. I also find the whole Nix ecosystem both
-awesome and fascinating. I have a Gitea instance where I keep all my private
+but I'm not afraid to try something new.
+I use Linux (specifically NixOS) and do all of my editing in Neovim.
+I'm also interested in DevOps and have a server at home running NixOS.
+Automating all the boring stuff is also a worthwhile goal.
+I have a Gitea instance where I keep all my private
 repos, the code I feel confident/important enough to share is on GitHub.
-I'm a Linux user and do all of my editing in Neovim and IntelliJ.
 
 ## Music
 
 I mostly listen to progressive rock and other slightly weird music.
 I'm also not averted to more classical music and soundtracks. Recently, I've
 also explored a more ambient/electronic sound. I also picked up a guitar at the end
-of 2021 but struggle to find time to practice it. I also plan on learning more
-about music production and synthesizers in the future or might pick up a keyboard.
+of 2021. I also have a small collection of Vinyls. Eventually, I want to learn more
+about music production and synthesizers or might even pick up a keyboard.
 
-For reference, these are more or less my favorite artists (in no particular order):
+For reference, here is one of my favorite songs and a
+good example what I like:
 
-- Ayreon
-- Devin Townsend
-- Dream Theater
-- Nightwish
-- Opeth
-- Pink Floyd
-- Porcupine Tree
-- Riverside
-- Steven Wilson
-- Tool
+{{< youtube qFwcahcDzP4 >}}
+
+<!-- ancestral https://www.youtube.com/watch?v=qFwcahcDzP4 -->
 
 ## Space
 
 Space has always fascinated me since my childhood, both the scientific
 background and its exploration by humanity. One of the reasons I started
 studying physics was exactly this fascination.
+Nowadays, I mostly try to keep up with the newest advancements and
+developments in the field, like the Artemis missions or the
+discoveries the JWST makes.
 
 ## Sci-Fi
 
@@ -59,13 +56,24 @@ want is hard though.
 
 ## Sports
 
-I'm not really into sports (and not very sporty myself). I used to watch
-Formula 1 in the past though. I also like walking/hiking to places.
+While I used to watch Formula 1 in the past, I don't really care about it anymore
+and don't follow any news about it.
+Other types of sport never really interested me.
+
+Personally, I like hiking in summer when the weather is good enough.
 
 ## Gaming
 
-I do enjoy a good game from time to time. I used to play quite a lot
-on Nintendo consoles when I was younger, nowadays, I mostly enjoy indie
-and older titles on my PC. I also spend way too many hours playing
-Guild Wars when I was a teenager. Just don't ask me about my opinion on
-Guild Wars 2, it's complicated.
+I used to play quite a lot on Nintendo consoles when I was younger.
+Nowadays, when playing games, I mostly enjoy indie and older titles
+on my PC or my Steam Deck.
+While I try to focus on other hobbies at the moment, I still follow
+gaming news and watch videos about it.
+
+As for multiplayer games, I spent way too many hours playing
+Guild Wars when I was a teenager (And I still regard it as one
+of my favorite games of all time).
+I also played quite a lot of StarCraft II when it was still
+relatively popular, although I was never especially good at it.
+I also played many hours of Guild Wars 2, but my opinion on that
+is a bit more complicated.
