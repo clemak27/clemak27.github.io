@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on main</title><link>https://clemak27.github.io/</link><description>Recent content in Home on main</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://clemak27.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About me</title><link>https://clemak27.github.io/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/cv/</guid><description>Who am I? My name is Clemens and I currently work as a Software Engineer, maintaining and extending backend services.
 Education I got a B.Sc. in Computer Science at UAS Technikum Wien. I also studied physics for a while until I figured out it wasn&amp;rsquo;t for me.
-Coding I mainly use Java, Go and Java-/Typescript (in NodeJS) for programming, but I&amp;rsquo;m not afraid to try something new. There&amp;rsquo;s also an interest in DevOps and I have a server at home running Fedora CoreOS.</description><content>&lt;h2 id="who-am-i">Who am I?&lt;/h2>
+Coding I mainly use Java, Go and Java-/Typescript (in NodeJS) for programming, but I&amp;rsquo;m not afraid to try something new. I use Linux (specifically NixOS) and do all of my editing in Neovim.</description><content>&lt;h2 id="who-am-i">Who am I?&lt;/h2>
 &lt;p>My name is Clemens and I currently work as a Software Engineer, maintaining and
 extending backend services.&lt;/p>
 &lt;h2 id="education">Education&lt;/h2>
@@ -8,49 +8,54 @@ extending backend services.&lt;/p>
 for a while until I figured out it wasn&amp;rsquo;t for me.&lt;/p>
 &lt;h2 id="coding">Coding&lt;/h2>
 &lt;p>I mainly use Java, Go and Java-/Typescript (in NodeJS) for programming,
-but I&amp;rsquo;m not afraid to try something new. There&amp;rsquo;s also an interest in DevOps
-and I have a server at home running Fedora CoreOS. Automating all the boring
-stuff is also a worthwhile goal. I also find the whole Nix ecosystem both
-awesome and fascinating. I have a Gitea instance where I keep all my private
-repos, the code I feel confident/important enough to share is on GitHub.
-I&amp;rsquo;m a Linux user and do all of my editing in Neovim and IntelliJ.&lt;/p>
+but I&amp;rsquo;m not afraid to try something new.
+I use Linux (specifically NixOS) and do all of my editing in Neovim.
+I&amp;rsquo;m also interested in DevOps and have a server at home running NixOS.
+Automating all the boring stuff is also a worthwhile goal.
+I have a Gitea instance where I keep all my private
+repos, the code I feel confident/important enough to share is on GitHub.&lt;/p>
 &lt;h2 id="music">Music&lt;/h2>
 &lt;p>I mostly listen to progressive rock and other slightly weird music.
 I&amp;rsquo;m also not averted to more classical music and soundtracks. Recently, I&amp;rsquo;ve
 also explored a more ambient/electronic sound. I also picked up a guitar at the end
-of 2021 but struggle to find time to practice it. I also plan on learning more
-about music production and synthesizers in the future or might pick up a keyboard.&lt;/p>
-&lt;p>For reference, these are more or less my favorite artists (in no particular order):&lt;/p>
-&lt;ul>
-&lt;li>Ayreon&lt;/li>
-&lt;li>Devin Townsend&lt;/li>
-&lt;li>Dream Theater&lt;/li>
-&lt;li>Nightwish&lt;/li>
-&lt;li>Opeth&lt;/li>
-&lt;li>Pink Floyd&lt;/li>
-&lt;li>Porcupine Tree&lt;/li>
-&lt;li>Riverside&lt;/li>
-&lt;li>Steven Wilson&lt;/li>
-&lt;li>Tool&lt;/li>
-&lt;/ul>
+of 2021. I also have a small collection of Vinyls. Eventually, I want to learn more
+about music production and synthesizers or might even pick up a keyboard.&lt;/p>
+&lt;p>For reference, here is one of my favorite songs and a
+good example what I like:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/qFwcahcDzP4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;!-- raw HTML omitted -->
 &lt;h2 id="space">Space&lt;/h2>
 &lt;p>Space has always fascinated me since my childhood, both the scientific
 background and its exploration by humanity. One of the reasons I started
-studying physics was exactly this fascination.&lt;/p>
+studying physics was exactly this fascination.
+Nowadays, I mostly try to keep up with the newest advancements and
+developments in the field, like the Artemis missions or the
+discoveries the JWST makes.&lt;/p>
 &lt;h2 id="sci-fi">Sci-Fi&lt;/h2>
 &lt;p>I enjoy watching science fiction movies (and playing sci-fi games) that are both
 entertaining and thought-provoking. Bladerunner 2049 is a good example for that
 (and also visually beautiful in my opinion). Finding time to watch everything I
 want is hard though.&lt;/p>
 &lt;h2 id="sports">Sports&lt;/h2>
-&lt;p>I&amp;rsquo;m not really into sports (and not very sporty myself). I used to watch
-Formula 1 in the past though. I also like walking/hiking to places.&lt;/p>
+&lt;p>While I used to watch Formula 1 in the past, I don&amp;rsquo;t really care about it anymore
+and don&amp;rsquo;t follow any news about it.
+Other types of sport never really interested me.&lt;/p>
+&lt;p>Personally, I like hiking in summer when the weather is good enough.&lt;/p>
 &lt;h2 id="gaming">Gaming&lt;/h2>
-&lt;p>I do enjoy a good game from time to time. I used to play quite a lot
-on Nintendo consoles when I was younger, nowadays, I mostly enjoy indie
-and older titles on my PC. I also spend way too many hours playing
-Guild Wars when I was a teenager. Just don&amp;rsquo;t ask me about my opinion on
-Guild Wars 2, it&amp;rsquo;s complicated.&lt;/p></content></item><item><title>About this page</title><link>https://clemak27.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/about/</guid><description>This site was created by me, using hugo.</description><content>&lt;p>This site was created by me, using &lt;a href="https://github.com/gohugoio/hugo">hugo&lt;/a>.&lt;/p></content></item><item><title>homelab</title><link>https://clemak27.github.io/homelab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/homelab/</guid><description>I have a small server at home, running some services host for myself. I don&amp;rsquo;t know if you can even call a single server homelab, but hey, it&amp;rsquo;s something. ¯\_(ツ)_/¯
+&lt;p>I used to play quite a lot on Nintendo consoles when I was younger.
+Nowadays, when playing games, I mostly enjoy indie and older titles
+on my PC or my Steam Deck.
+While I try to focus on other hobbies at the moment, I still follow
+gaming news and watch videos about it.&lt;/p>
+&lt;p>As for multiplayer games, I spent way too many hours playing
+Guild Wars when I was a teenager (And I still regard it as one
+of my favorite games of all time).
+I also played quite a lot of StarCraft II when it was still
+relatively popular, although I was never especially good at it.
+I also played many hours of Guild Wars 2, but my opinion on that
+is a bit more complicated.&lt;/p></content></item><item><title>About this page</title><link>https://clemak27.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/about/</guid><description>This site was created by me, using hugo.</description><content>&lt;p>This site was created by me, using &lt;a href="https://github.com/gohugoio/hugo">hugo&lt;/a>.&lt;/p></content></item><item><title>homelab</title><link>https://clemak27.github.io/homelab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/homelab/</guid><description>I have a small server at home, running some services host for myself. I don&amp;rsquo;t know if you can even call a single server homelab, but hey, it&amp;rsquo;s something. ¯\_(ツ)_/¯
 My server is a &amp;ldquo;normal&amp;rdquo; PC with a Node 304 as a case, an AMD Ryzen 5 3600 with 16 GB and currently some TB of space. It runs NixOS.
 Most services run in a k3s cluster. The cluster is managed with ArgoCD, which watches the cluster directory for changes and automatically applies them to the cluster.</description><content>&lt;p>I have a small server at home, running some services host for myself.
 I don&amp;rsquo;t know if you can even call a single server homelab,
@@ -120,4 +125,11 @@ Flatpak and the toolbox. That said, I currently still use home-manager
 to organize my dotfiles, which is both because it would require additional
 migration work, and because it allows me to use my dotfiles anywhere else where
 Nix is available. While I did think about returning to NixOS for a while,
-I see no reason to change for now. Fedora just works™&lt;/p></content></item></channel></rss>
+I see no reason to change for now. Fedora just works™&lt;/p>
+&lt;h3 id="returning-to-nixos">Returning to NixOS&lt;/h3>
+&lt;p>After more than a year running Silverblue, I returned to NixOS.
+This was mostly due to my stubbornness to migrate my dotfiles from Nix
+to something else. Running my whole setup inside a toolbox worked for many things,
+but did have some issue with containerization. Also, over time, the setup of my
+linux machines and their actual state started to drift. I currently see no reason to
+switch from something else.&lt;/p></content></item></channel></rss>
