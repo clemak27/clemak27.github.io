@@ -68,7 +68,7 @@ declared in one file, and the system is set up exactly the way it is defined,
 with all packages and customizations. The second is the awesome nix_shell,
 that creates local development environments in an awesome way. Want to see how
 your node14 application works with node16? Just create a nix-shell without
-screwing up your global install or setting up nvm.
+screwing up your global install or setting up something like [NVM](https://github.com/nvm-sh/nvm).
 
 ### Fedora Silverblue
 
@@ -86,5 +86,5 @@ After more than a year running Silverblue, I returned to NixOS.
 This was mostly due to my stubbornness to migrate my dotfiles from Nix
 to something else. Running my whole setup inside a toolbox worked for many things,
 but did have some issue with containerization. Also, over time, the setup of my
-linux machines and their actual state started to drift. I currently see no reason to
-switch from something else.
+Linux machines and their actual state started to drift.
+I currently see no reason to switch from something else.
