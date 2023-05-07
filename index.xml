@@ -117,7 +117,7 @@ declared in one file, and the system is set up exactly the way it is defined,
 with all packages and customizations. The second is the awesome nix_shell,
 that creates local development environments in an awesome way. Want to see how
 your node14 application works with node16? Just create a nix-shell without
-screwing up your global install or setting up nvm.&lt;/p>
+screwing up your global install or setting up something like &lt;a href="https://github.com/nvm-sh/nvm">NVM&lt;/a>.&lt;/p>
 &lt;h3 id="fedora-silverblue">Fedora Silverblue&lt;/h3>
 &lt;p>Despite my initial hype for NixOS I was not 100% satisfied with it.
 I switched to Fedora Silverblue. I like its combination of containers,
@@ -131,5 +131,5 @@ I see no reason to change for now. Fedora just works™&lt;/p>
 This was mostly due to my stubbornness to migrate my dotfiles from Nix
 to something else. Running my whole setup inside a toolbox worked for many things,
 but did have some issue with containerization. Also, over time, the setup of my
-linux machines and their actual state started to drift. I currently see no reason to
-switch from something else.&lt;/p></content></item></channel></rss>
+Linux machines and their actual state started to drift.
+I currently see no reason to switch from something else.&lt;/p></content></item></channel></rss>
