@@ -31,12 +31,11 @@ also explored a more ambient/electronic sound. I also picked up a guitar at the 
 of 2021. I also have a small collection of Vinyls. Eventually, I want to learn more
 about music production and synthesizers or might even pick up a keyboard.
 
-For reference, here is one of my favorite songs and a
-good example what I like:
+For reference, here is a good example what I like:
 
-{{< youtube qFwcahcDzP4 >}}
+{{< youtube wb0fW8yQCHc >}}
 
-<!-- ancestral https://www.youtube.com/watch?v=qFwcahcDzP4 -->
+<!-- but seriously, how can this song be so fucking good? -->
 
 ## Space
 
