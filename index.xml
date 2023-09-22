@@ -20,10 +20,9 @@ I&amp;rsquo;m also not averted to more classical music and soundtracks. Recently
 also explored a more ambient/electronic sound. I also picked up a guitar at the end
 of 2021. I also have a small collection of Vinyls. Eventually, I want to learn more
 about music production and synthesizers or might even pick up a keyboard.&lt;/p>
-&lt;p>For reference, here is one of my favorite songs and a
-good example what I like:&lt;/p>
+&lt;p>For reference, here is a good example what I like:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/qFwcahcDzP4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe src="https://www.youtube.com/embed/wb0fW8yQCHc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;!-- raw HTML omitted -->
 &lt;h2 id="space">Space&lt;/h2>
@@ -62,17 +61,16 @@ Favicon by Icons8</description><content>&lt;p>This site was created by me, using
 colors from &lt;a href="https://github.com/catppuccin/catppuccin">catppuccin&lt;/a>.&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;p>&lt;a href="https://icons8.com/icon/123742/home-page">Favicon&lt;/a> by
-&lt;a href="https://icons8.com">Icons8&lt;/a>&lt;/p></content></item><item><title>homelab</title><link>https://clemak27.github.io/homelab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/homelab/</guid><description>I have a small server at home, running some services host for myself. I don&amp;rsquo;t know if you can even call a single server homelab, but hey, it&amp;rsquo;s something. ¯\_(ツ)_/¯
-My server is a &amp;ldquo;normal&amp;rdquo; PC with a Node 304 as a case, an AMD Ryzen 5 3600 with 16 GB and currently some TB of space. It runs NixOS.
-Most services run in a k3s cluster. The cluster is managed with ArgoCD, which watches the cluster directory for changes and automatically applies them to the cluster.</description><content>&lt;p>I have a small server at home, running some services host for myself.
-I don&amp;rsquo;t know if you can even call a single server homelab,
-but hey, it&amp;rsquo;s something. ¯\_(ツ)_/¯&lt;/p>
-&lt;p>My server is a &amp;ldquo;normal&amp;rdquo; PC with a Node 304 as a case, an AMD Ryzen 5 3600 with
-16 GB and currently some TB of space. It runs NixOS.&lt;/p>
-&lt;p>Most services run in a k3s cluster. The cluster is managed with &lt;a href="https://argoproj.github.io/cd">ArgoCD&lt;/a>,
+&lt;a href="https://icons8.com">Icons8&lt;/a>&lt;/p></content></item><item><title>homelab</title><link>https://clemak27.github.io/homelab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/homelab/</guid><description>I have a small k3s cluster at home, running some services I host for myself.
+It contains a RockPro64 and 2x Raspberry Pi 4B, all of them running NixOS.
+The cluster is managed with ArgoCD, which watches the cluster directory for changes and automatically applies them to the cluster.
+Nothing of those is public, and only accessible via VPN (Wireguard).
+You can find more info in the repo here.</description><content>&lt;p>I have a small k3s cluster at home, running some services I host for myself.&lt;/p>
+&lt;p>It contains a RockPro64 and 2x Raspberry Pi 4B, all of them running NixOS.&lt;/p>
+&lt;p>The cluster is managed with &lt;a href="https://argoproj.github.io/cd">ArgoCD&lt;/a>,
 which watches the cluster directory for changes and automatically
 applies them to the cluster.&lt;/p>
-&lt;p>Nothing of those is public, and only accessible via VPN.&lt;/p>
+&lt;p>Nothing of those is public, and only accessible via VPN (Wireguard).&lt;/p>
 &lt;p>You can find more info &lt;a href="https://github.com/clemak27/homelab">in the repo here&lt;/a>.&lt;/p></content></item><item><title>Linux Setup</title><link>https://clemak27.github.io/linux_setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/linux_setup/</guid><description>dotfiles etc. are here
 My journey so far My Linux journey took me to many distributions over the years:
 Linux Mint Guess everyone had to start somewhere ¯\_(ツ)_/¯. For the things I did back then, which was mostly taking notes for university classes and some simple programming, it was ok. Cinnamon was also fine at the beginning, coming from Windows.
