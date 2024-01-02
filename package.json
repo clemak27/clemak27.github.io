@@ -7,12 +7,24 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "fix": "eslint --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "2.4.6",
+    "@catppuccin/tailwindcss": "0.1.6",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-module": "4.1.0",
+    "@nuxtjs/tailwindcss": "6.10.1",
+    "@pinia/nuxt": "0.5.1",
+    "daisyui": "^3",
+    "eslint": "8.56.0",
     "nuxt": "^3.8.2",
     "vue": "^3.3.12",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "pinia": "2.1.7"
   }
 }
