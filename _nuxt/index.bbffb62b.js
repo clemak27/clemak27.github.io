@@ -1,0 +1,1 @@
+import{_ as e,v as t,t as o,x as c}from"./entry.cf6cd1b8.js";const s={},n=c("p",null," This is my homepage. It doesn't have much content, but feel free to check out what's here. ",-1),a=[n];function r(_,h){return o(),t("div",null,a)}const i=e(s,[["render",r]]);export{i as default};
