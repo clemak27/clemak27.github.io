@@ -18,6 +18,7 @@
     "@nuxtjs/eslint-module": "4.1.0",
     "@nuxtjs/tailwindcss": "6.10.1",
     "@pinia/nuxt": "0.5.1",
+    "@vue/typescript-plugin": "2.0.22",
     "daisyui": "^3",
     "eslint": "8.56.0",
     "nuxt": "^3.8.2",
