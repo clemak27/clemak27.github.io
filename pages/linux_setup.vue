@@ -97,6 +97,15 @@
       Flatpak and the toolbox. I do most of my work a toolbx container where I have
       everything I need installed. Fedora just works™
     </p>
+    <h3 class="text-lg pb-3">
+      Return to Nix
+    </h3>
+    <p>
+      While (almost) everything worked with Fedora, I still kept all my dotfiles, organized
+      using Nix, or more specifically home-manager. Due to this, I could never really let go
+      of Nix and kept installing it. Eventually, I decided to not due some weird half-supported setup,
+      but just to go back and use NixOS again.
+    </p>
   </div>
 </template>
 

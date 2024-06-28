@@ -7,7 +7,7 @@
       I have a k3s "cluster" at home, running some services I host for myself.
     </p>
     <p>
-      It currently consists of single bare-metal server running Fedora IoT, with k3s to deploy containers.
+      It currently consists of single bare-metal server running NixOS, with k3s to deploy containers.
     </p>
     <p>
       The cluster is managed with <a class="link" href="https://argoproj.github.io/cd">ArgoCD</a>
