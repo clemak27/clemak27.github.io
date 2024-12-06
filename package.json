@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "3.11.2",
-    "@catppuccin/tailwindcss": "0.1.6",
     "@nuxt/devtools": "1.6.3",
     "@nuxtjs/eslint-module": "4.1.0",
     "@nuxtjs/tailwindcss": "6.12.2",
