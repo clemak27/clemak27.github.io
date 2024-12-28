@@ -1,24 +1,23 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+# Created by https://www.toptal.com/developers/gitignore/api/hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 
-# Node dependencies
-node_modules
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Logs
-logs
-*.log
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Misc
-.DS_Store
-.fleet
-.idea
+# Temporary lock file while building
+/.hugo_build.lock
 
-# Local env files
-.env
-.env.*
-!.env.example
+# End of https://www.toptal.com/developers/gitignore/api/hugo
+
+# Nix
+.direnv
+.pre-commit-config.yaml
