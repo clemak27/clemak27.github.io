@@ -1,90 +1,46 @@
 ---
 title: Linux Setup
-
 ---
 
 [dotfiles etc. are here](https://github.com/clemak27/linux_setup)
 
-## My journey so far
+I currently use [Nix](https://nixos.org/) on all my machines where possible.
+Having used multiple distros/DE in the past (Mint, (K)Ubuntu, Arch,
+Silverblue/Kinoite), I fell in the Nix-hole some years ago and have been using
+it since.
 
-My Linux journey took me to many distributions over the years:
+I love the deterministic configuration of my whole system and the flexibility of
+nix shell etc. to manage project-specific dependencies.
 
-### Linux Mint
+Here is a current screenshot of my main system:
 
-Guess everyone had to start somewhere ¯\\\_(ツ)_/¯. For the things I did back
-then, which was mostly taking notes for university classes and some simple
-programming, it was ok. Cinnamon was also fine at the beginning, coming from Windows.
+![screenshot](screen.png "Screenshot of my system, showing firefox, feishin, kitty and dolphin")
 
-### Ubuntu
+If you are interested in the hardware details of my main PC:
 
-After that, I used vanilla Ubuntu for a while (back in a time when it was still
-kinda ok and not full of snaps). I thought the way GNOME worked with the
-different workspaces was cool.
+| Hardware     | -                                               |
+| ------------ | ----------------------------------------------- |
+| CPU + cooler | AMD Ryzen 9 7900X + BE QUIET! Pure Rock 2 Black |
+| Mainboard    | MSI MAG B650 TOMAHAWK WIFI                      |
+| RAM          | CORSAIR Vengeance 32GB, DDR5-6000               |
+| GPU          | SAPPHIRE AMD Radeon RX 6700 XT Pulse            |
+| Main disk    | Samsung 970 EVO NVMe M.2 SSD 500GB              |
+| Games disk   | Samsung SSD 870 EVO Sata III                    |
+| Storage disk | Seagate IronWolf 4TB                            |
+| Monitor 1    | Dell 34 Curved Gaming Monitor – S3422DWG        |
+| Monitor 2    | AOC 24G2                                        |
+| Audio        | Fiio BTR5 + Sennheiser IE100 Pro                |
 
-### Kubuntu
+As for the software side:
 
-I soon switched to KDE Plasma in the form of Kubuntu. Which was awesome, all the
-things you could customize. The whole set of KDE software is also more up
-my alley than their GNOME equivalents.
-
-### Manjaro
-
-While I was occasionally still dual booting windows until now, it was finally
-time to use Linux all the time, also on my desktop PC. I needed and wanted more
-up-to-date software for this, so I switched to a rolling release distro and
-ended up with Manjaro. The few months I used it, it was quite ok, and also
-supported my hardware well. That said, there were and still are some concerns
-with Manjaro (there a good write-up [here](https://manjarno.snorlax.sh/)).
-So I just went to use Arch proper.
-
-### Arch Linux
-
-Despite the common opinion, I found Arch actually be easy to install, the guide
-in the archwiki is pretty detailed. I also soon began documenting and automating
-the installation process to fit my needs in case I wanted to start fresh. That said,
-Arch has been extremely stable for me and the legendary wiki and a community has
-a wealth of knowledge if one encounters problems.
-
-In the years I used Arch, I also learned a lot of new things about the inner
-workings of Linux. This was also the time-period where I learned to love vim,
-which I use daily now. While still staying with Plasma most of the time, I also
-used i3 for a while (and took one or 2 looks what GNOME is up to)
-
-While Arch really is awesome (and I would everyone interested in Linux to at
-least try it out for a while) there were also a few things that annoyed me.
-As already said, I documented my whole setup and ended up with some pretty
-convoluted installation scripts. That said, such scripts take also time to maintain,
-and testing them would usually mean spinning up a VM etc. Not to mention the
-not-so-nice experience of not writing down a magic command that fixes an issue.
-
-### NixOS
-
-I eventually came to know the Nix ecosystem. After using the (community made)
-home-manager tool to manage my dotfiles, I took the plunge and replaced
-Arch with NixOS.
-
-There are 2 things I find great about Nix: The whole system-configuration in
-declared in one file, and the system is set up exactly the way it is defined,
-with all packages and customizations. The second is the awesome nix_shell,
-that creates local development environments in an awesome way. Want to see how
-your node14 application works with node16? Just create a nix-shell without
-screwing up your global install or setting up something like [NVM](https://github.com/nvm-sh/nvm).
-
-### Fedora Silverblue
-
-Despite my initial hype for NixOS I was not 100% satisfied with it.
-I switched to Fedora Silverblue. I like its combination of containers,
-Flatpak and the toolbox. That said, I currently still use home-manager
-to organize my dotfiles, which is both because it would require additional
-migration work, and because it allows me to use my dotfiles anywhere else where
-Nix is available. While I did think about returning to NixOS for a while,
-I see no reason to change for now. Fedora just works™
-
-### Returning to NixOS
-
-After more than a year running Silverblue, I returned to NixOS.
-This was mostly due to my stubbornness to migrate my dotfiles from Nix
-to something else. Running my whole setup inside a toolbox worked for many things,
-but did have some issue with containerization. Also, over time, the setup of my
-Linux machines and their actual state started to drift.
-I currently see no reason to switch from something else.
+| Software     | -                                                 |
+| ------------ | ------------------------------------------------- |
+| OS           | [NixOS](https://nixos.org/)                       |
+| DE           | [KDE Plasma 6](https://kde.org/)                  |
+| Browser      | [Firefox](https://www.mozilla.org/en-US/firefox/) |
+| Terminal     | [kitty](https://sw.kovidgoyal.net/kitty/)         |
+| Music Player | [feishin](https://github.com/jeffvli/feishin)     |
+| Texteditor   | [neovim](https://neovim.io/)                      |
+| PIM          | [Kontact](https://userbase.kde.org/Kontact)       |
+| Shell        | zsh                                               |
+| Multiplexer  | zellij                                            |
