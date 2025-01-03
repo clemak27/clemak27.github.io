@@ -1,1 +1,0 @@
-import{_ as t,v as n,x as o,t as s}from"./DIH8czVI.js";const r={};function c(a,e){return s(),n("div",null,e[0]||(e[0]=[o("p",null," This is my homepage. It doesn't have much content, but feel free to check out what's here. ",-1)]))}const f=t(r,[["render",c]]);export{f as default};
