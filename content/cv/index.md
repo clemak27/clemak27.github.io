@@ -67,7 +67,8 @@ around with my ebike.
 I used to play quite a lot on Nintendo consoles when I was younger. Nowadays,
 when playing games, I mostly enjoy indie and older titles on my PC or my Steam
 Deck or whatever I bought in the last steam sale. My favorite genres are
-probably RPGs, old-school shooters, metroidvanias and some strategy games.
+probably RPGs, old-school shooters, metroidvanias, soulslikes and some strategy
+games.
 
 As for multiplayer games, I spent way too many hours playing Guild Wars when I
 was a teenager (And I still regard it as one of my favorite games of all time).
