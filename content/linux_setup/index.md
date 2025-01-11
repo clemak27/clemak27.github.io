@@ -29,6 +29,8 @@ If you are interested in the hardware details of my main PC:
 | Storage disk | Seagate IronWolf 4TB                            |
 | Monitor 1    | Dell 34 Curved Gaming Monitor – S3422DWG        |
 | Monitor 2    | AOC 24G2                                        |
+| Keyboard     | lily58                                          |
+| Mouse        | Logitech Hero G502                              |
 | Audio        | Fiio BTR5 + Sennheiser IE100 Pro                |
 
 As for the software side:
