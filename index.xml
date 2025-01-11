@@ -96,7 +96,7 @@ it since.&lt;/p>
 &lt;p>I love the deterministic configuration of my whole system and the flexibility of
 nix shell etc. to manage project-specific dependencies.&lt;/p>
 &lt;p>Here is a current screenshot of my main system:&lt;/p>
-&lt;p>&lt;img src="https://clemak27.github.io/linux_setup/screen.png" alt="screenshot" title="Screenshot of my system, showing firefox, feishin, kitty and dolphin">&lt;/p></description><content>&lt;p>&lt;a href="https://github.com/clemak27/linux_setup">dotfiles etc. are here&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://clemak27.github.io/linux_setup/screen.png" alt="screenshot" title="Screenshot of my system, showing firefox, feishin, wezterm and dolphin">&lt;/p></description><content>&lt;p>&lt;a href="https://github.com/clemak27/linux_setup">dotfiles etc. are here&lt;/a>&lt;/p>
 &lt;p>I currently use &lt;a href="https://nixos.org/">Nix&lt;/a> on all my machines where possible.
 Having used multiple distros/DE in the past (Mint, (K)Ubuntu, Arch,
 Silverblue/Kinoite), I fell in the Nix-hole some years ago and have been using
@@ -104,7 +104,7 @@ it since.&lt;/p>
 &lt;p>I love the deterministic configuration of my whole system and the flexibility of
 nix shell etc. to manage project-specific dependencies.&lt;/p>
 &lt;p>Here is a current screenshot of my main system:&lt;/p>
-&lt;p>&lt;img src="https://clemak27.github.io/linux_setup/screen.png" alt="screenshot" title="Screenshot of my system, showing firefox, feishin, kitty and dolphin">&lt;/p>
+&lt;p>&lt;img src="https://clemak27.github.io/linux_setup/screen.png" alt="screenshot" title="Screenshot of my system, showing firefox, feishin, wezterm and dolphin">&lt;/p>
 &lt;p>If you are interested in the hardware details of my main PC:&lt;/p>
 &lt;table>
 &lt;thead>
@@ -179,7 +179,7 @@ nix shell etc. to manage project-specific dependencies.&lt;/p>
 &lt;/tr>
 &lt;tr>
 &lt;td>Terminal&lt;/td>
-&lt;td>&lt;a href="https://sw.kovidgoyal.net/kitty/">kitty&lt;/a>&lt;/td>
+&lt;td>&lt;a href="https://wezfurlong.org/wezterm/">wezterm&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Music Player&lt;/td>
