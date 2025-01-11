@@ -14,7 +14,7 @@ nix shell etc. to manage project-specific dependencies.
 
 Here is a current screenshot of my main system:
 
-![screenshot](screen.png "Screenshot of my system, showing firefox, feishin, kitty and dolphin")
+![screenshot](screen.png "Screenshot of my system, showing firefox, feishin, wezterm and dolphin")
 
 If you are interested in the hardware details of my main PC:
 
@@ -38,7 +38,7 @@ As for the software side:
 | OS           | [NixOS](https://nixos.org/)                       |
 | DE           | [KDE Plasma 6](https://kde.org/)                  |
 | Browser      | [Firefox](https://www.mozilla.org/en-US/firefox/) |
-| Terminal     | [kitty](https://sw.kovidgoyal.net/kitty/)         |
+| Terminal     | [wezterm](https://wezfurlong.org/wezterm/)        |
 | Music Player | [feishin](https://github.com/jeffvli/feishin)     |
 | Texteditor   | [neovim](https://neovim.io/)                      |
 | PIM          | [Kontact](https://userbase.kde.org/Kontact)       |
