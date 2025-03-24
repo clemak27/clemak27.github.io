@@ -4,17 +4,12 @@ title: Linux Setup
 
 [dotfiles etc. are here](https://github.com/clemak27/linux_setup)
 
-I currently use [Nix](https://nixos.org/) on all my machines where possible.
 Having used multiple distros/DE in the past (Mint, (K)Ubuntu, Arch,
-Silverblue/Kinoite), I fell in the Nix-hole some years ago and have been using
-it since.
+Silverblue/Kinoite and NixOS), I am currently using Fedora Kinoite and am fully
+satisfied with it.
 
-I love the deterministic configuration of my whole system and the flexibility of
-nix shell etc. to manage project-specific dependencies.
-
-Here is a current screenshot of my main system:
-
-![screenshot](screen.png "Screenshot of my system, showing firefox, feishin, wezterm and dolphin")
+It allows me to have a solid base system and to use the latest packages as
+flatpak or in a container without worrying to break the rest.
 
 If you are interested in the hardware details of my main PC:
 
@@ -31,18 +26,17 @@ If you are interested in the hardware details of my main PC:
 | Monitor 2    | AOC 24G2                                        |
 | Keyboard     | lily58                                          |
 | Mouse        | Logitech Hero G502                              |
-| Audio        | Fiio BTR5 + Sennheiser IE100 Pro                |
+| Audio        | Fiio BTR7 + Sennheiser IE100 Pro                |
 
 As for the software side:
 
-| Software     | -                                                 |
-| ------------ | ------------------------------------------------- |
-| OS           | [NixOS](https://nixos.org/)                       |
-| DE           | [KDE Plasma 6](https://kde.org/)                  |
-| Browser      | [Firefox](https://www.mozilla.org/en-US/firefox/) |
-| Terminal     | [wezterm](https://wezfurlong.org/wezterm/)        |
-| Music Player | [feishin](https://github.com/jeffvli/feishin)     |
-| Texteditor   | [neovim](https://neovim.io/)                      |
-| PIM          | [Kontact](https://userbase.kde.org/Kontact)       |
-| Shell        | zsh                                               |
-| Multiplexer  | zellij                                            |
+| Software     | -                                                             |
+| ------------ | ------------------------------------------------------------- |
+| OS           | [Kinoite](https://fedoraproject.org/atomic-desktops/kinoite/) |
+| DE           | [KDE Plasma 6](https://kde.org/)                              |
+| Browser      | [Firefox](https://www.mozilla.org/en-US/firefox/)             |
+| Terminal     | [wezterm](https://wezfurlong.org/wezterm/)                    |
+| Music Player | [feishin](https://github.com/jeffvli/feishin)                 |
+| Texteditor   | [neovim](https://neovim.io/)                                  |
+| PIM          | [Kontact](https://userbase.kde.org/Kontact)                   |
+| Shell        | zsh                                                           |
