@@ -1,0 +1,8 @@
+[tools]
+hk = "latest"
+pkl = "latest"
+'pipx:commitizen' = 'latest'
+hugo = 'latest'
+
+[env]
+HK_MISE = true

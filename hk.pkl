@@ -1,0 +1,21 @@
+amends "package://github.com/jdx/hk/releases/download/v1.1.2/hk@1.1.2#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v1.1.2/hk@1.1.2#/Builtins.pkl"
+
+local commons = new Mapping<String, Step> {
+  ["markdown_lint"] = Builtins.markdown_lint
+}
+
+hooks {
+  ["pre-commit"] {
+      fix = false
+      stash = "git"
+      steps = commons
+  }
+  ["commit-msg"] {
+    steps {
+      ["commitizen"] {
+        check = "cz check --allow-abort --commit-msg-file {{commit_msg_file}}"
+      }
+    }
+  }
+}
