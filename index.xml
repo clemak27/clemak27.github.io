@@ -33,7 +33,7 @@ and synthesizers or might even pick up a keyboard.&lt;/p>
 &lt;p>For reference, here is a good example what I like from one of my favorite
 artists:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GPfcL5K7VZ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GPfcL5K7VZ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;h2 id="science-and-space">Science and Space&lt;/h2>
 &lt;p>I&amp;rsquo;m interested in alot of science, specifically various branches of physics. The
@@ -75,14 +75,14 @@ are released.&lt;/p></content></item><item><title>About this page</title><link>h
 &lt;p>It uses the &lt;a href="https://github.com/panr/hugo-theme-terminal">terminal theme&lt;/a>.&lt;/p>
 &lt;p>&lt;a href="https://icons8.com/icon/123742/home-page">Favicon&lt;/a> by
 &lt;a href="https://icons8.com">Icons8&lt;/a>&lt;/p></content></item><item><title>homelab</title><link>https://clemak27.github.io/homelab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://clemak27.github.io/homelab/</guid><description>&lt;p>I have a k3s &amp;ldquo;cluster&amp;rdquo; at home, running some services I host for myself. It
-currently consists of single bare-metal server running NixOS, with k3s to deploy
-containers. The cluster is managed with &lt;a href="https://argoproj.github.io/cd">ArgoCD&lt;/a>
+currently consists of single bare-metal server running Fedora CoreOS, with &lt;code>k3s&lt;/code>
+to deploy containers. The cluster is managed with &lt;a href="https://fluxcd.io/">fluxCD&lt;/a>
 which watches the cluster directory for changes and automatically applies them
 to the cluster. Nothing of those is public, and only accessible via VPN
 (Wireguard). You can find more info
 &lt;a href="https://github.com/clemak27/homelab">in the repo here&lt;/a>.&lt;/p></description><content>&lt;p>I have a k3s &amp;ldquo;cluster&amp;rdquo; at home, running some services I host for myself. It
-currently consists of single bare-metal server running NixOS, with k3s to deploy
-containers. The cluster is managed with &lt;a href="https://argoproj.github.io/cd">ArgoCD&lt;/a>
+currently consists of single bare-metal server running Fedora CoreOS, with &lt;code>k3s&lt;/code>
+to deploy containers. The cluster is managed with &lt;a href="https://fluxcd.io/">fluxCD&lt;/a>
 which watches the cluster directory for changes and automatically applies them
 to the cluster. Nothing of those is public, and only accessible via VPN
 (Wireguard). You can find more info
