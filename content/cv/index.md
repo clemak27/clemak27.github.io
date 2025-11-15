@@ -17,9 +17,9 @@ for a while until I figured out it wasn't for me.
 I mainly use Java, Go and Java-/Typescript (when I need to) for programming, but
 I'm not afraid to try something new. My OS of choice is Linux (specifically
 NixOS) and I do all of my editing in neovim. I'm also interested in DevOps and
-have a server at home running NixOS. Automating all the boring stuff is also a
-worthwhile goal for me. I have a Gitea instance where I keep all my private
-repos, the code I feel confident/important enough to share is on GitHub.
+have a server at home running Fedora CoreOS. Automating all the boring stuff is
+also a worthwhile goal for me. I have a Gitea instance where I keep all my
+private repos, the code I feel confident/important enough to share is on GitHub.
 
 ## Music
 
